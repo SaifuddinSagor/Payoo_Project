@@ -21,24 +21,24 @@
             </nav>
         </header>
         <!-- Login Section -->
-        <div class="hero bg-base-200 min-h-screen">
+        <div class="">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                    <div class="card-body">
+                    <form class="card-body">
                         <fieldset class="fieldset">
                             <label class="fieldset-label">Account number</label>
-                            <input type="number" class="input" placeholder="type your number" />
-                            <label class="fieldset-label">PIN</label>
-                            <input type="text" class="input" placeholder="type your PIN" />
+                            <input value="01998276653" id="Account-number" type="number" class="input" placeholder="type your number"required />
+                            <label  class="fieldset-label">PIN</label>
+                            <input value="1234" id="pin" type="text" class="input" placeholder="type your PIN" />
                             <div><a class="link link-hover">Forgot password?</a></div>
-                            <button class="btn btn-neutral mt-4">Login</button>
+                            <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
                         </fieldset>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <script src="script/login.js"></script>
 </body>
 
 </html>
